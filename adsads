@@ -1,1 +1,23 @@
-gdjahjkdha
+public class test {
+    public static final  BOLD = new TextStyle(null, 0, true, false);
+    public static final  GREY = new TextStyle("#6C6C7F", 11, false, false);
+    private String color;
+   
+    private int size;
+   
+    private boolean bold;
+   
+    private boolean italic;
+
+    public TextStyle (String color){
+        this();
+        this.color = color;
+    }
+
+    public test(String color, int size, boolean bold, boolean italic){
+        this(color);
+        this.size = size;
+        this.bold = bold;
+        this.italic = italic;
+    }
+}
